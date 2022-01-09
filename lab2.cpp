@@ -146,7 +146,7 @@ public:
     }
     ~Board()
     {
-        for(int i=0; i < rows; i++)
+        for(int i=0; i < 8; i++)
         {
             delete[] arr[i];
         }
