@@ -69,6 +69,7 @@ public:
             else
             {
                 this -> moveupper();
+                this -> print();
             }
             break;
         case 2:
@@ -79,6 +80,7 @@ public:
             else
             {
                 this -> movedown();
+                this -> print();
             }
             break;
         case 3:
@@ -89,6 +91,7 @@ public:
             else
             {
                 this -> moveleft();
+                this -> print();
             }
             break;
         case 4:
@@ -99,6 +102,7 @@ public:
             else
             {
                 this -> moveright();
+                this -> print();
             }
             break;
         default:
