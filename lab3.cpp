@@ -77,4 +77,5 @@ int main()
         {
             std::cout <<"Error! Wrong number.";
         }
+    return 0;
 }
