@@ -144,6 +144,15 @@ public:
         currj = currj + n;
         return currj;
     }
+    ~Board()
+    {
+        for(int i=0; i < rows; i++)
+        {
+            delete[] arr[i];
+        }
+        delete[] arr;
+        std::cout <<"Destructor called.";
+    }
 };
 
 int main()
