@@ -15,7 +15,7 @@ public:
     }
 };
 
-class Cat : public Animal
+class Cat : virtual public Animal
 {
 public:
     Cat()
@@ -29,7 +29,7 @@ public:
     }
 };
 
-class Dog : public Animal
+class Dog : virtual public Animal
 {
 public:
     Dog()
@@ -44,7 +44,7 @@ public:
 };
 
 
-class Cow : public Animal
+class Cow : virtual public Animal
 {
 public:
     Cow()
