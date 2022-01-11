@@ -69,18 +69,18 @@ int main()
     std::cin >> a;
     if (a == 1)
     {
-        Animal* abstractAnimal = new Cat();
-        abstractAnimal->Print();
+        Animal* aAnimal = new Cat();
+        aAnimal->Print();
     }
     else if (a == 2)
     {
-        Animal* abstractAnimal = new Dog();
-        abstractAnimal->Print();
+        Animal* aAnimal = new Dog();
+        aAnimal->Print();
     }
     else if (a == 3)
     {
-        Animal* abstractAnimal = new Cow();
-        abstractAnimal->Print();
+        Animal* aAnimal = new Cow();
+        aAnimal->Print();
     }
     else
     {
